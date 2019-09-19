@@ -44,7 +44,7 @@ class SignUp extends Component {
             })
 
         } catch(error) {
-            console.log(error);
+             console.error(error);
 
         }
     }
@@ -91,7 +91,7 @@ class SignUp extends Component {
                     />
                     <FormInput
                         type='password'
-                        name='confirmpassword'
+                        name='confirmPassword'
                         value={confirmPassword}
                         onChange={this.handleChange}
                         label='Confirm Password'
