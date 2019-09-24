@@ -10,9 +10,7 @@ class ShopPage extends Component {
 
         this.state = {
             collections: SHOP_DATA
-        }
-
-        
+        }    
     }
 
     render() {
